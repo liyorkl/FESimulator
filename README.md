@@ -1,4 +1,4 @@
-# TRV Trading Stage 5
+# TRV Trading Financial Exchange Simulator
 
 Code for the 5th stage of the Interview,
 
