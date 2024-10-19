@@ -1,4 +1,4 @@
-# TRV Trading Step 5
+# TRV Trading Stage 5
 
 Code for the 5th stage of the Interview,
 
