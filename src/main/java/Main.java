@@ -120,7 +120,7 @@ public class Main {
     LinkedHashMap<Integer, Integer> costQuantityMap = new LinkedHashMap<>();
 
     // ensures that queue not empty, price matched, and enough quantity to keep trading
-    while (!asks.isEmpty() && newBid.getPrice() > asks.peek().getPrice() && totalQuantityExecuted < newBid.getQuantity()) {
+    while (!asks.isEmpty() && newBid.getPrice() => asks.peek().getPrice() && totalQuantityExecuted < newBid.getQuantity()) {
       Ask oldAsk = asks.peek();
 
       // price based on the resting order in the book
@@ -167,7 +167,7 @@ public class Main {
     LinkedHashMap<Integer, Integer> costQuantityMap = new LinkedHashMap<>();
 
     // ensures that queue not empty, price matched, and enough quantity to keep trading
-    while (!bids.isEmpty() && newAsk.getPrice() < bids.peek().getPrice() && totalQuantityExecuted < newAsk.getQuantity()) {
+    while (!bids.isEmpty() && newAsk.getPrice() <= bids.peek().getPrice() && totalQuantityExecuted < newAsk.getQuantity()) {
       Bid oldBid = bids.peek();
 
       // price based on the resting order in the book
